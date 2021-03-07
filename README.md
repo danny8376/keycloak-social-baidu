@@ -7,6 +7,7 @@ With this library you can log in into Keycloak via [Baidu](https://www.baidu.com
 
 It was tested against Keycloak versions:
 + 5.0.0
++ 12.0.4
 
 ## How to use it
 
