@@ -10,18 +10,18 @@ plugins {
 repositories {
     mavenLocal()
     maven {
-        url = 'http://repo.maven.apache.org/maven2'
+        url = 'https://repo.maven.apache.org/maven2'
     }
 }
 
 dependencies {
-    compileOnly 'org.keycloak:keycloak-services:5.0.0'
-    compileOnly 'org.keycloak:keycloak-server-spi:5.0.0'
-    compileOnly 'org.keycloak:keycloak-server-spi-private:5.0.0'
+    compileOnly 'org.keycloak:keycloak-services:12.0.0'
+    compileOnly 'org.keycloak:keycloak-server-spi:12.0.0'
+    compileOnly 'org.keycloak:keycloak-server-spi-private:12.0.0'
 }
 
 group = 'moe.saru.keycloak'
-version = '0.1.0-ALPHA'
+version = '0.2.0-ALPHA'
 description = 'Identity Provider - Baidu'
 sourceCompatibility = '1.8'
 
